@@ -1,0 +1,13 @@
+<nav class="navbar">
+  <div class="nav-wrapper">
+    <img [src]="logoImg" class="brand-img" alt="e">
+      <input type="text" class="search-box" placeholder="search">
+      <div class="nav-items">
+        <a [routerLink]="['/home']"><fa-icon [icon]="faHome" class="icon"></fa-icon></a>
+        <a [routerLink]="['/messages']"><fa-icon [icon]="faFacebookMessenger" class="icon"></fa-icon></a>
+        <a [routerLink]="['/post']"><fa-icon [icon]="faPlusSquare" class="icon"></fa-icon></a>
+        <fa-icon [icon]="faHeart" class="icon"></fa-icon>
+        <a [routerLink]="['/profile']"> <div class="icon user-profile"></div></a>
+      </div>
+  </div>
+</nav>

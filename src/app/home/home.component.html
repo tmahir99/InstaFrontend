@@ -1,0 +1,36 @@
+<header>
+    <app-header></app-header>
+</header>
+<app-story></app-story>
+    <section class="main">
+    <div class="wrapper">
+        <div class="left-col">
+            <div class="post">
+                <div class="info">
+                    <div class="user">
+                        <div class="profile-pic"><img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" alt="da"></div>
+                        <p class="username">{{name}}</p>
+                    </div>
+                    <img src="img/option.PNG" class="options" alt="">
+                </div>
+                <img src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg" class="post-image" alt="">
+                <div class="post-content">
+                    <div class="reaction-wrapper">
+                        <fa-icon [icon]="faHeart" class="icon">"</fa-icon>
+                        <fa-icon [icon]="faComment" class="icon">"</fa-icon>
+                        <fa-icon [icon]="faPaperPlane" class="icon">"</fa-icon>
+                        <fa-icon [icon]="faBookmark" class="save icon"></fa-icon>
+                    </div>
+                    <p class="likes">1,012 likes</p>
+                    <p class="description"><span>username </span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur tenetur veritatis placeat, molestiae impedit aut provident eum quo natus molestias?</p>
+                    <p class="post-time">2 minutes ago</p>
+                </div>
+                <div class="comment-wrapper">
+                    <img src="img/smile.PNG" class="icon" alt="">
+                    <input type="text" class="comment-box" placeholder="Add a comment">
+                    <button class="comment-btn">post</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
